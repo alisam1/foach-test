@@ -1,0 +1,26 @@
+@import "blocks/header.scss";
+@import "blocks/sidebar.scss";
+@import "blocks/main.scss";
+
+$font-stack: "Roboto", sans-serif;
+
+@import "~bootstrap/scss/bootstrap";
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Roboto-Regular.ttf');
+}
+
+body {
+  font-family: $font-stack;
+  #logo {
+    width: 10rem;
+  }
+  .container {
+    img {
+      width: 20rem;
+    }
+  }
+}

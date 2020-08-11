@@ -1,0 +1,32 @@
+.sidebar{
+    width: 80px;
+    height: auto;
+    background-color: #223A45;
+    position: fixed;
+    top: 80px;
+    display: block;
+    z-index: 998;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    &__content{
+            top: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 85vh;
+    }
+    button{
+        border: none;
+        background: transparent;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+    &__top{
+        display: flex;
+        flex-direction: column;
+    }
+    &__rollup{
+        margin-left: 40px;
+    }
+}
